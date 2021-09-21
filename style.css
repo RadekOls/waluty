@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+  
+  .form {
+    margin: 20px;
+  }
+  
+  .form__fieldset {
+    border: 2px solid rgb(3, 105, 105);
+  }
+  
+  .form__legend {
+    border: 2px dotted rgb(3, 105, 105);
+    padding: 3px;
+  }
+  
+  .form__label {}
+  
+  .form__labelText {
+    display: inline-block;
+    max-width: 150px;
+    width: 100%;
+  }
+  
+  .form__PLN, .form__Euro {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form__submit {
+    /* width: 100%; */
+    background-color: rgb(106, 223, 223);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .form__submit:hover {
+    background-color: rgb(10, 206, 206);
+  }
+  
+  .form__submit:active {
+    background-color: rgb(243, 198, 177);
+  }
+  
+  .form__reset {
+    /* width: 100%; */
+    background-color: rgb(3, 105, 105);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .form__reset:hover {
+    background-color: rgb(10, 206, 206);
+    ;
+  }
+  
+  .form__reset:active {
+    background-color: rgb(243, 198, 177);
+  }
+  
+  /* .form__field--textarea{
+    resize: vertical;
+  } */
+  
+  /* .form__field:read-only{
+   
+  } */
+  
+  /* .form__field:required(invalid)(out-of-range){
+  
+  } */
+  
+  /* .form__field:disabled{
+  
+  } */
+  
+  /* .form__field:required{
+  background-color: rgb(230, 222, 221);
+  } */
